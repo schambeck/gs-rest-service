@@ -5,3 +5,6 @@ run:
 	target/rest-service-complete
 
 dist-run: dist run
+
+test:
+	mvn -Pnative test
